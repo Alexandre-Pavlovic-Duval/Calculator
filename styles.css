@@ -20,8 +20,10 @@ body {
 .screen {
     border: 5px solid #E0E0E0;
     background-color: rgb(101, 125, 152);
-    margin: 10px;
-    height: 10%;
+    margin-top: 10px;
+    margin-left: 10px;  
+    margin-right: 10px;
+    height: 16%;
 }
 
 /* sub header */
@@ -36,14 +38,22 @@ body {
 
 .clear {
     height: 35px;
-    width: 24%;
-    border-radius: 15%;
+    width: 70%;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    border-radius: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .negative-number {
     height: 35px;
-    width: 24%;
-    border-radius: 15%;
+    width: 70%;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    border-radius: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .percentage {
@@ -99,9 +109,9 @@ body {
 .operator-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     width: 25%;
+    margin-top: 18px;
 }
 
 .operator {
@@ -109,13 +119,14 @@ body {
     width: 70%;
     border-radius: 15%;
     margin-bottom: 6%;
-    margin-top: 20%;
+    margin-top: 8px;
 }
 
 /* footer */
 .footer {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .brand {
