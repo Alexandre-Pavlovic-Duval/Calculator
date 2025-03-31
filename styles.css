@@ -4,40 +4,129 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid blueviolet;
+    margin: 0;
+    padding: 0;
 }
 
 .calculator-container {
-    height: 50%;
-    width: 20%;
+    height: 37%;
+    width: 15%;
     display: flex;
-    border: 5px solid red;
     flex-direction: column;
+    background-color: #1C1C1E;
 }
 
+/* display */
+.screen {
+    border: 5px solid #E0E0E0;
+    background-color: rgb(101, 125, 152);
+    margin: 10px;
+    height: 10%;
+}
+
+/* sub header */
 .operator-header {
-    border: 5px solid pink;
     display: flex;
+    gap: 15px;
+    margin-bottom: -15px;
+    margin-left: 15px;
+    width: 65%;
+    justify-content: space-evenly;
 }
 
 .clear {
-    height: 55px;
-    width: 33%;
+    height: 35px;
+    width: 24%;
+    border-radius: 15%;
+}
+
+.negative-number {
+    height: 35px;
+    width: 24%;
+    border-radius: 15%;
+}
+
+.percentage {
+    height: 35px;
+    width: 24%;
+    border-radius: 15%;
+}
+
+/* number part */
+.middle-container {
+    display: flex;
+}
+
+.number-header {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    border: 1px solid black;
+    align-items: center;
+    background-color: #E0E0E0;
+    border-radius: 5%;
+    margin-top: 22px;
+    margin-left: 12px;
+    margin-right: 5px;
+}
+
+.number {
+    height: 35px;
+    width: 70%;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    border-radius: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.number-zero {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    height: 35px;
+    width: 70%;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    border-radius: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* operator part */
+.operator-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
 }
 
 .operator {
-    height: 55px;
-    width: 33%;
+    height: 35px;
+    width: 70%;
+    border-radius: 15%;
+    margin-bottom: 6%;
+    margin-top: 20%;
 }
 
-.equal {
-    height: 55px;
-    width: 33%;
-}
-
-
-.number {
+/* footer */
+.footer {
     display: flex;
-    flex-direction: column;
-    border: 5px solid black;
+    justify-content: space-between;
+}
+
+.brand {
+    color: white;
+    font-weight: 800;
+    margin-left: 14px;
+}
+.equal {
+    height: 35px;
+    width: 25%;
+    border-radius: 15%;
+    margin-top: 5px;
+    margin-right: 3%;
 }
