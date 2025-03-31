@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid blueviolet;
+}
+
+.calculator-container {
+    height: 50%;
+    width: 20%;
+    display: flex;
+    border: 5px solid red;
+    flex-direction: column;
+}
+
+.operator-header {
+    border: 5px solid pink;
+    display: flex;
+}
+
+.clear {
+    height: 55px;
+    width: 33%;
+}
+
+.operator {
+    height: 55px;
+    width: 33%;
+}
+
+.equal {
+    height: 55px;
+    width: 33%;
+}
+
+
+.number {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+}
